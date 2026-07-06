@@ -1,128 +1,76 @@
-# 📉 Telecom Customer Churn Dashboard (Power BI)
+# 📊 Telecom Customer Churn Analysis Dashboard (Power BI)
 
 ## Overview
 
-This project analyzes customer churn for a telecom company using Power BI. The dashboard helps identify churn patterns, customer segments, and key factors contributing to customer attrition.
+This project analyzes customer churn in a telecom company using Microsoft Power BI. The dashboard identifies key factors influencing customer churn and provides interactive visualizations to help understand customer behavior and retention patterns.
+
+---
+
+## Dashboard Preview
+
+![Dashboard](images/dashboard.png)
 
 ---
 
 ## Objectives
 
-- Track churn KPIs
-- Analyze customer behavior
-- Identify churn drivers
-- Segment customers
-- Support retention strategies
-
----
-
-## Tech Stack
-
-- Power BI
-- DAX
-- Power Query
-
----
-
-## Dataset
-
-Telecom Customer Churn Dataset (Databel)
-
-Includes information such as:
-
-- Customer Demographics
-- Contract Details
-- Monthly Charges
-- International Plan
-- Call Usage
-- Customer Status
-- Churn Label
+- Analyze overall customer churn.
+- Identify the primary reasons customers leave.
+- Compare churn across different contract types.
+- Understand how customer tenure affects churn.
+- Analyze the relationship between monthly charges and churn.
+- Compare churn rates between customers with and without unlimited data plans.
 
 ---
 
 ## Dashboard Features
 
 ### KPI Cards
-
 - Total Customers
-- Active Customers
-- Churned Customers
-- Churn Rate
+- Total Churned Customers
+- Overall Churn Rate
 
-### Customer Segmentation
+### Interactive Filter
+- Churn Label
 
-- Age Groups
-- Contract Type
-- Payment Method
-- Customer Status
-
-### Churn Analysis
-
-- Churn by Contract
-- Churn by State
-- Churn by Tenure
-- Churn by Payment Type
-- Churn by Customer Demographics
-
-### Interactive Filters
-
-- State
-- Contract Type
-- Customer Group
-- Internet Type
-- Payment Method
+### Visualizations
+- Customers by Contract Type and Churn Status
+- Churn Rate by Monthly Charge Group
+- Number of Churned Customers by Churn Reason
+- Churn Rate by Unlimited Data Plan
+- Customer Count and Churn Rate by Tenure
 
 ---
 
-## Business Insights
+## Key Insights
 
-- Identified customer groups with the highest churn
-- Found contract types associated with higher churn rates
-- Analyzed demographic trends
-- Highlighted opportunities for customer retention
+- Overall customer churn rate is **26.9%**.
+- Month-to-month contracts experience the highest churn.
+- Competitor-related reasons account for most customer churn.
+- Customers with higher monthly charges tend to churn more frequently.
+- Churn decreases as customer tenure increases.
+- Customers with unlimited data plans exhibit a higher churn rate.
 
 ---
 
-## DAX Measures
+## Tools & Technologies
+
+- Microsoft Power BI
+- Power Query
+- DAX
+- Data Modeling
+- Data Visualization
+
+---
+
+## DAX Measures Used
 
 Examples include:
 
 - Churn Rate
-- Total Customers
-- Active Customers
-- Churned Customers
-- Customer Percentage
-- Dynamic KPI Measures
+- Number of Customers
+- Number of Churned Customers
 
----
-
-## Repository Structure
-
-```
-├── Data
-│   └── Databel - Data.csv
-├── Dashboard
-│   └── Analyzing_Customer_Churn.pbix
-├── Images
-└── README.md
-```
-
----
-
-## Skills Demonstrated
-
-- Power BI
-- Data Modeling
-- DAX
-- Dashboard Design
-- KPI Development
-- Customer Segmentation
-- Business Analytics
-
----
-
-## Author
-
-**Your Name**
+LinkedIn: https://linkedin.com/in/yourprofile
 
 GitHub: https://github.com/yourusername
