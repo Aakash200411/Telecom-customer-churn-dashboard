@@ -70,7 +70,3 @@ Examples include:
 - Churn Rate
 - Number of Customers
 - Number of Churned Customers
-
-LinkedIn: https://linkedin.com/in/yourprofile
-
-GitHub: https://github.com/yourusername
