@@ -23,20 +23,6 @@ A two-page Power BI report on 6,687 telecom customers that answers three questio
 | Top reason given by churners | Competitor (**45%**) |
 | Credit card vs direct debit / paper check | 14% vs 35% / 38% churn |
 
-### Which factor matters most?
-
-Contract type is the biggest *lever* (it covers 88% of churners), but it is not the strongest *signal*. I ranked every field by how well it separates churners from retained customers (mutual information and 5-fold cross-validated AUC, see `analysis/churn_validation.py`):
-
-| Field | Mutual information (bits) | CV AUC |
-|---|---|---|
-| Customer service calls | 0.310 | 0.83 |
-| Contract type | 0.170 | 0.76 |
-| Tenure | 0.095 | 0.72 |
-| Payment method | 0.039 | 0.62 |
-| Monthly charge | 0.034 | 0.62 |
-
-Service calls may partly be a *result* of customers who have already decided to leave, so I treat them as a warning signal, not a cause.
-
 ## Recommendations
 
 1. **Convert month-to-month customers to annual contracts early**, ideally within the first 6 to 12 months, when churn is highest.
